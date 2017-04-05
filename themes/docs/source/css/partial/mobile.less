@@ -73,7 +73,16 @@
   aside.mobile-show {
     right: 0px;
     transition: right 1s;
-    z-index: 1000;
+  }
+
+  .page-main {
+    &.post {
+      aside {
+        display: block;
+        z-index: 1000;
+        
+      }
+    }
   }
 
   .page-main article {
