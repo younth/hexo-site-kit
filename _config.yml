@@ -1,0 +1,39 @@
+title: Hexo-docs
+subtitle: "快捷建设你的官网平台"
+description: "快捷建设你的官网平台"
+language:
+- zh-cn
+- en
+timezone: UTC
+url: http://baidu.com
+# 文件路径
+root: /
+archive_dir: news
+permalink: news/:year/:month/:day/:title/
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+post_asset_folder: true
+highlight:
+  enable: true
+  line_number: false
+per_page: 0
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: docs
+
+less:
+  compress: true
+
+# 忽略的文件，开始匹配的目录是source目录
+skip_render:
+  - ci.yml
+  - README.md
+  
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  # 仓库地址需要换成个人的
+  repo: 
+  branch: master

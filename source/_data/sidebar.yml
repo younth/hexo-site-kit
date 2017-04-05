@@ -1,0 +1,31 @@
+# nodeui文档
+docs:
+    Intro:
+      What is NodeUI: /docs/intro/index.html
+      Get Start: /docs/intro/quickstart.html
+    Basics:
+      Structure: /docs/basics/structure.html
+      Router: /docs/basics/router.html
+      Service: /docs/basics/service.html
+      Mock: /docs/basics/mock.html
+    Core:
+      Development: /docs/core/development.html
+      # Unit Testing: /docs/core/unittest.html
+      Deployment: /docs/core/deployment.html
+      Logger: /docs/core/logger.html
+      View: /docs/core/view.html
+      Runtime: /docs/core/runtime.html
+    Advanced:
+      FetchServer: /docs/advanced/fetch-server.html
+      ServerIsolation: /docs/advanced/server-isoloton.html
+    FAQ:
+      Deploy: /docs/faq/deploy.html
+      debug: /docs/faq/debug.html
+      wechat: /docs/faq/wechat.html
+      contributing: /docs/faq/contributing.html
+
+# fekey
+fekey:
+    Intro:
+      What is Fekey: /fekey/index.html
+      Fekey Get Start: /fekey/quickstart.html
