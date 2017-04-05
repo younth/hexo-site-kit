@@ -22,3 +22,7 @@
     hexo s
     hexo s -g // 预览加部署
     hexo d -g // hexo g && hexo d 生成及部署
+
+### 注意
+
+- 切换主题的时候，务必先执行 `hexo clean` 清空之前的编译缓存

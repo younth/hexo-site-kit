@@ -26,14 +26,10 @@ PV总量  | 10W
 项目 | 说明 
 --- | ---
 模块名称 | cfe_h5
-iCode地址 | http://xiaolvyun.baidu.com/waimai/icode/repo/waimai/c_eden/h5/files/master/tree/
+iCode地址 | 
 路由名称 | fly/vip
-BNS服务 | group.waimai-frontend.iwaimai.all
+BNS服务 | 
 
 **注意：项目模块名称及fekey构建时候的namespance，与路由名称可以不一致**
 
 #### 3. 发送邮件
-
-发邮件至 `wangyang@iwaimai.baidu.com`, `liushuchao@iwaimai.baidu.com`,`xumingjie@iwaimai.baidu.com`，并抄送 `lilide@iwaimai.baidu.com`。
-
-收到邮件确认后，我们会在上线系统中申请绑定模块及增加nodeui app 模块。
