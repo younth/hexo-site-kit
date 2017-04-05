@@ -1,6 +1,6 @@
-## hexo-docs 快捷建设项目官网
+## hexo-site-kit
 
-项目官方文档平台通过 `hexo` 搭建。
+基于Hexo快速搭建项目官网及文档平台。
 
 ### 安装依赖
 
@@ -23,6 +23,12 @@
     hexo s -g // 预览加部署
     hexo d -g // hexo g && hexo d 生成及部署
 
-### 注意
+### 切换主题
 
-- 切换主题的时候，务必先执行 `hexo clean` 清空之前的编译缓存
+修改`_config.yml` 里面的 `theme`。目前提供两种主题：
+
+- docs: 基于 egg 官网改造
+- navy: 基于 hexo 官网改造
+
+**切换主题的时候，务必先执行 `hexo clean` 清空之前的编译缓存**
+

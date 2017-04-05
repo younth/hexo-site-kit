@@ -21,6 +21,7 @@ per_page: 0
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: docs
+# theme: navy
 
 less:
   compress: true
