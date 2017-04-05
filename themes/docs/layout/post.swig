@@ -12,6 +12,8 @@
 
     {{ page.content }}
   </article>
+  {# 移动端导航需要 #}
+  {{ partial('partial/aside') }}
 </div>
 {#
 	{{ partial('egg/footer') }}
