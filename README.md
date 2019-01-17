@@ -1,3 +1,6 @@
+
+**vuepress更好用，推荐大家使用：https://github.com/vuejs/vuepress**
+
 ## hexo-site-kit
 
 基于Hexo快速搭建项目官网及文档平台。效果见：https://github.com/younth/hexo-site-kit/issues/1
